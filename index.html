@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Diferencia entre fechas</title>
+    <link href="./css/bootstrap-5.2.0.purged.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <main class="container" role="main">
+        <div class="card mt-1">
+            <h5 class="card-header text-white bg-dark">Ingreso de fechas</h5>
+            <div class="card-body row">
+                <div class="col-12 col-sm-6 p-2 mt-2">
+                    <label for="startDate" class="form-label">Fecha Inicial</label>
+                    <input type="date" class="form-control" name="" id="startDate">
+                    <button type="button" id="startDateToday" class="btn btn-outline-success btn-sm mt-2">Fecha Inicial: Hoy</button>
+                </div>
+                <div class="col-12 col-sm-6 p-2 mt-2">
+                    <label for="endDate" class="form-label">Fecha Final</label>
+                    <input type="date" class="form-control" name="" id="endDate">
+                    <button type="button" id="endDateToday" class="btn btn-outline-success btn-sm mt-2">Fecha Final: Hoy</button>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="button" disabled id="differenceBetweenDates" class="btn btn-sm btn-success">Calcular</button>
+            </div>
+        </div>
+        <div id="tableOfDifferences" class="card mt-4">
+            <h5 class="card-header text-white bg-dark">Diferencia</h5>
+            <div class="card-body">
+                <table class="table">
+                    <tr>
+                        <th>Días:</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Meses:</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Años:</th>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </main>
+    <script src="./js/bootstrap-5.2.0.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

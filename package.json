@@ -1,0 +1,14 @@
+{
+  "name": "difference-days",
+  "version": "1.0.0",
+  "description": "Sitio web de muestra para calcular la diferencia entre dos fechas (días/meses/años) de forma sencilla con un pequeño script en javascript.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "purgecss": "^4.1.3"
+  }
+}
